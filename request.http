@@ -1,0 +1,29 @@
+GET http://localhost:3000/ 
+
+###
+
+POST http://localhost:3000/bileasy/send_data
+
+Content-Type: "application/json"
+{
+    "employerName":"Sivaji",
+    "employerAge":20,
+    "employerGender":"Male",
+    "departmentId":25
+}
+
+###
+
+GET http://localhost:3000/employees/count/each_department
+
+###
+
+GET http://localhost:3000/employees/count/each_department/21/
+
+###
+
+GET http://localhost:3000/bileasy/employees_list/3/
+
+###
+
+GET http://localhost:3000/bileasy/details/date_of_joining
